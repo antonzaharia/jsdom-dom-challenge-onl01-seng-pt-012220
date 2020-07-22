@@ -59,6 +59,6 @@ const like = document.getElementById('heart');
 like.addEventListener('click', function(event){
   let likes = 0;
   let p = document.createElement('p');
-  p.textContent = `${counter} has ${likes + 1} likes`;
+  p.textContent = `${counter.textContent} has ${likes + 1} likes`;
   console.log(p);
 });
