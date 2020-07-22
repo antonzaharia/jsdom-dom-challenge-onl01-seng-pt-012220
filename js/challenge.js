@@ -14,6 +14,7 @@ document.getElementById("submit").addEventListener('click', function(event){
 
 const counter = document.getElementById('counter');
 window.setTimeout( function(){
-  let number = addOne(counter.textContent);
+  let number = counter.textContent;
+  addOne(number);
   console.log(number);
   }, 100);
