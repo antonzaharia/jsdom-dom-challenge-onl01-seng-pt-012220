@@ -47,7 +47,6 @@ pause.addEventListener('click', function(event) {
   let number = counter.textContent;
   counter.textContent = addOne(number);
   }, 1000);
-  counterId = false;
   minus.disabled = false;
   plus.disabled = false;
   like.disabled = false;
