@@ -4,6 +4,13 @@ function addOne(number) {
 function removeOne(number){
   return parseInt(number) - 1;
 };
+
+function timer(){
+  window.setInterval( function(){
+    let number = counter.textContent;
+    counter.textContent = addOne(number);
+  }, 1000);
+}
 document.getElementById("submit").addEventListener('click', function(event){
   let input = document.getElementById('comment-input').value;
   let p = document.createElement('p');
@@ -16,10 +23,7 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
-window.setInterval( function(){
-  let number = counter.textContent;
-  counter.textContent = addOne(number);
-}, 1000);
+
 
 const plus = document.getElementById('plus');
 plus.addEventListener('click', function(event){
