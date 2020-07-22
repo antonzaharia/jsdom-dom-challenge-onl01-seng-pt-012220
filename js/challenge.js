@@ -16,4 +16,5 @@ const counter = document.getElementById('counter');
 window.setInterval( function(){
   let number = counter.textContent;
   console.log(addOne(number));
+  counter.innerHTML(addOne(number))
 }, 1000);
