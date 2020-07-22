@@ -34,7 +34,7 @@ minus.addEventListener('click', function(event){
 });
 const pause = document.getElementById('pause');
 pause.addEventListener('click', function(event){
-  if(counterId){
+  if(counterId) {
   clearInterval(counterId);
   counterId = false;
   minus.disabled = true;
