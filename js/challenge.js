@@ -29,5 +29,5 @@ plus.addEventListener('click', function(event){
 const minus = document.getElementById('minus');
 plus.addEventListener('click', function(event){
   let number = counter.textContent;
-  counter.textContent = addOne(number);
+  counter.textContent = removeOne(number);
 });
