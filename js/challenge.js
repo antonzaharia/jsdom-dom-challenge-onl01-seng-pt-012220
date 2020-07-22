@@ -37,7 +37,7 @@ pause.addEventListener('click', function(event){
   if(counterId){
   clearInterval(counterId);
   counterId = false;
-  minus.setAttribute("disabled");
+  minus.setAttribute("disabled=true");
 } else {
   counterId = window.setInterval( function(){
   let number = counter.textContent;
