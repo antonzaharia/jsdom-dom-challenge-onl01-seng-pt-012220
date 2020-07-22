@@ -20,7 +20,5 @@ window.setInterval( function(){
 
 const plus = document.getElementById('plus');
 plus.addEventListener('click', function(event){
-  
+
 });
-
-
