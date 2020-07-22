@@ -20,5 +20,6 @@ window.setInterval( function(){
 
 const plus = document.getElementById('plus');
 plus.addEventListener('click', function(event){
-
+  let number = counter.textContent;
+  counter.textContent = addOne(number);
 });
