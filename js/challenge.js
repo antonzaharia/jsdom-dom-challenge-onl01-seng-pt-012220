@@ -19,6 +19,7 @@ submit.addEventListener('click', function(event){
 const counter = document.getElementById('counter');
   let counterId = window.setInterval( function(){
   let number = counter.textContent;
+  likes = 0;
   counter.textContent = addOne(number);
 }, 1000);
 
