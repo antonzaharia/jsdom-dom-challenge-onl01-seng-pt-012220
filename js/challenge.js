@@ -5,6 +5,6 @@ document.getElementById("submit").addEventListener('click', function(event){
   let newComment = document.createTextNode(input);
   p.appendChild(newComment);
   let comments = document.getElementById('list');
-  comments.appendChild(newComment);
+  comments.appendChild(p);
   event.preventDefault()
 });
