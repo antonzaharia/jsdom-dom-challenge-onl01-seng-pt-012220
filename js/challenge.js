@@ -38,6 +38,7 @@ pause.addEventListener('click', function(event){
   clearInterval(counterId);
   counterId = false;
   minus.disabled = true;
+  plus.disabled = true;
 } else {
   counterId = window.setInterval( function(){
   let number = counter.textContent;
