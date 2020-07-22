@@ -13,4 +13,8 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
-document.setTimeout(addOne(counter.value), 1000);
+window.setTimeout( function(){
+  let number = addOne(counter.value);
+  console.log(number);
+            },100);
+    }
