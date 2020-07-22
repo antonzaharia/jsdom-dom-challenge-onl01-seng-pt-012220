@@ -40,6 +40,9 @@ pause.addEventListener('click', function(event){
   clearInterval(counterId);
   counterId = false;
 } else {
-  timer();
+  counterId = window.setInterval( function(){
+  let number = counter.textContent;
+  counter.textContent = addOne(number);
+  }, 1000);
 }
 });
