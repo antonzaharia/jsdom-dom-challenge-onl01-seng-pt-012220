@@ -17,4 +17,4 @@ window.setInterval( function(){
   let number = counter.textContent;
 
   console.log(addOne(number));
-  }, 100);
+}, 1000);
