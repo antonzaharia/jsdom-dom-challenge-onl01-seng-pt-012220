@@ -16,5 +16,5 @@ const counter = document.getElementById('counter');
 window.setTimeout( function(){
   let number = addOne(counter.value);
   console.log(number);
-            },100);
+},100);
     }
