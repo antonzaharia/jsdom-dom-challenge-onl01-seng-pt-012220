@@ -41,6 +41,7 @@ pause.addEventListener('click', function(event){
   plus.disabled = true;
   like.disabled = true;
   submit.disabled = true;
+  pause.textContent = "resume";
 } else {
   counterId = window.setInterval( function(){
   let number = counter.textContent;
