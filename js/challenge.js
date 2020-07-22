@@ -40,6 +40,7 @@ pause.addEventListener('click', function(event){
   minus.disabled = true;
   plus.disabled = true;
   like.disabled = true;
+  submit.disabled = true;
 } else {
   counterId = window.setInterval( function(){
   let number = counter.textContent;
