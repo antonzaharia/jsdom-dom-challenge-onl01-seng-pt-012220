@@ -44,3 +44,8 @@ pause.addEventListener('click', function(event){
   }, 1000);
 }
 });
+
+const like = document.getElementById('heart');
+like.addEventListener('click', function(event){
+
+});
