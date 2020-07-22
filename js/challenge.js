@@ -47,6 +47,7 @@ pause.addEventListener('click', function(event) {
   counterId = window.setInterval( function(){
   let number = counter.textContent;
   counter.textContent = addOne(number);
+  likes = 0;
   }, 1000);
   minus.disabled = false;
   plus.disabled = false;
