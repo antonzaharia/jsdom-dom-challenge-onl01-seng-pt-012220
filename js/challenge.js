@@ -10,3 +10,4 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
+counter.setTimeout(counter.value += 1, 1000);
