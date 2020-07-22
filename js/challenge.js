@@ -67,6 +67,6 @@ like.addEventListener('click', function(event){
     let x = document.getElementsByClassName('likes');
     x[x.length-1].textContent = li.textContent;
   } else {
-    document.getElementsByClassName('likes')[0].appendChild(p);
+    document.getElementsByClassName('likes')[0].appendChild(li);
   }
 });
