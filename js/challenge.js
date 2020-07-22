@@ -47,5 +47,5 @@ pause.addEventListener('click', function(event){
 
 const like = document.getElementById('heart');
 like.addEventListener('click', function(event){
-
+  console.log("1");
 });
