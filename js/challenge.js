@@ -35,4 +35,6 @@ const minus = document.getElementById('minus');
 minus.addEventListener('click', function(event){
   let number = counter.textContent;
   counter.textContent = removeOne(number);
+
+  window.setTimeout(timer(), 1000);
 });
