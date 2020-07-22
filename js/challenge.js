@@ -61,11 +61,11 @@ const like = document.getElementById('heart');
 let likes = 0;
 like.addEventListener('click', function(event){
   likes = likes + 1
-  let p = document.createElement('p');
-  p.textContent = `${counter.textContent} has ${likes} likes`;
+  let li = document.createElement('li');
+  li.textContent = `${counter.textContent} has ${likes} likes`;
   if (likes > 1 ) {
     let x = document.getElementsByClassName('likes');
-    x[x.length-1].textContent = p.textContent;
+    x[x.length-1].textContent = li.textContent;
   } else {
     document.getElementsByClassName('likes')[0].appendChild(p);
   }
