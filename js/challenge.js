@@ -11,6 +11,7 @@ function timer(){
     counter.textContent = addOne(number);
   }, 1000);
 }
+timer();
 document.getElementById("submit").addEventListener('click', function(event){
   let input = document.getElementById('comment-input').value;
   let p = document.createElement('p');
