@@ -13,7 +13,7 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
-window.setTimeout( function(){
+window.setInterval( function(){
   let number = counter.textContent;
 
   console.log(addOne(number));
