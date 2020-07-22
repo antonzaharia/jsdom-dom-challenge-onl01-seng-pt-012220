@@ -59,7 +59,7 @@ const like = document.getElementById('heart');
 like.addEventListener('click', function(event){
   likes = 0;
   function addLike(){
-    let likes =
+    likes + 1;
   }
   let p = document.createElement('p');
   p.textContent = `${counter.textContent} has ${likes + 1} likes`;
