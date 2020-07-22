@@ -5,13 +5,8 @@ function removeOne(number){
   return parseInt(number) - 1;
 };
 
-function timer(){
-  window.setInterval( function(){
-    let number = counter.textContent;
-    counter.textContent = addOne(number);
-  }, 1000);
-}
-timer();
+
+
 document.getElementById("submit").addEventListener('click', function(event){
   let input = document.getElementById('comment-input').value;
   let p = document.createElement('p');
@@ -25,7 +20,6 @@ document.getElementById("submit").addEventListener('click', function(event){
 
 const counter = document.getElementById('counter');
 
-
 const plus = document.getElementById('plus');
 plus.addEventListener('click', function(event){
   let number = counter.textContent;
@@ -35,4 +29,8 @@ const minus = document.getElementById('minus');
 minus.addEventListener('click', function(event){
   let number = counter.textContent;
   counter.textContent = removeOne(number);
+});
+const pause = document.getElementById('pause');
+pause.addEventListener('click', function(event){
+
 });
