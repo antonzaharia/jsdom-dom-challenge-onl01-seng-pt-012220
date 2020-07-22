@@ -1,5 +1,5 @@
 function addOne(number) {
-  return parseInt(number) += 1;
+  return parseInt(number) + 1;
 };
 document.getElementById("submit").addEventListener('click', function(event){
   let input = document.getElementById('comment-input').value;
