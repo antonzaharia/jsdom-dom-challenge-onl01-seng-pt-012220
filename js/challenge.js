@@ -36,5 +36,5 @@ minus.addEventListener('click', function(event){
 });
 const pause = document.getElementById('pause');
 pause.addEventListener('click', function(event){
-  counterId
+  clearInterval(counterId);
 });
