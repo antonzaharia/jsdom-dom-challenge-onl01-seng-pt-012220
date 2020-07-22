@@ -19,7 +19,7 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
-window.setInterval( function(){
+  let counterID = window.setInterval( function(){
   let number = counter.textContent;
   counter.textContent = addOne(number);
 }, 1000);
