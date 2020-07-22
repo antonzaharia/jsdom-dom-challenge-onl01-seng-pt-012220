@@ -13,4 +13,4 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
-counter.setTimeout(addOne(counter.value), 1000);
+document.setTimeout(addOne(counter.value), 1000);
