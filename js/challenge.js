@@ -19,7 +19,7 @@ document.getElementById("submit").addEventListener('click', function(event){
 });
 
 const counter = document.getElementById('counter');
-  let counterID = window.setInterval( function(){
+  let counterId = window.setInterval( function(){
   let number = counter.textContent;
   counter.textContent = addOne(number);
 }, 1000);
@@ -36,5 +36,5 @@ minus.addEventListener('click', function(event){
 });
 const pause = document.getElementById('pause');
 pause.addEventListener('click', function(event){
-
+  counterId
 });
