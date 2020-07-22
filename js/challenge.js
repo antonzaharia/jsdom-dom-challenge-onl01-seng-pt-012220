@@ -33,7 +33,7 @@ minus.addEventListener('click', function(event){
   counter.textContent = removeOne(number);
 });
 const pause = document.getElementById('pause');
-pause.addEventListener('click', function(event){
+pause.addEventListener('click', function(event) {
   if(counterId) {
   clearInterval(counterId);
   counterId = false;
