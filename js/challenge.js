@@ -26,10 +26,12 @@ const counter = document.getElementById('counter');
 
 const plus = document.getElementById('plus');
 plus.addEventListener('click', function(event){
+  let number = counter.textContent;
   counter.textContent = addOne(number);
 });
 const minus = document.getElementById('minus');
 minus.addEventListener('click', function(event){
+  let number = counter.textContent;
   counter.textContent = removeOne(number);
 });
 const pause = document.getElementById('pause');
