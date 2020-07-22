@@ -1,4 +1,3 @@
-
 document.getElementById("submit").addEventListener('click', function(event){
   let input = document.getElementById('comment-input').value;
   let p = document.createElement('p');
@@ -9,3 +8,5 @@ document.getElementById("submit").addEventListener('click', function(event){
   event.preventDefault()
   document.getElementById('comment-form').reset();
 });
+
+const counter = document.getElementById('counter');
