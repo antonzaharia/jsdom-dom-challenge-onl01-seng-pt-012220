@@ -40,6 +40,6 @@ pause.addEventListener('click', function(event){
   clearInterval(counterId);
   counterId = false;
 } else {
-
+  timer();
 }
 });
