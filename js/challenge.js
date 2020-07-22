@@ -12,7 +12,7 @@ document.getElementById("submit").addEventListener('click', function(event){
   document.getElementById('comment-form').reset();
 });
 
-let counter = document.getElementById('counter');
+const counter = document.getElementById('counter');
 window.setInterval( function(){
   let number = counter.textContent;
   counter.textContent = addOne(number);
