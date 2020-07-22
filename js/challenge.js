@@ -30,12 +30,9 @@ const plus = document.getElementById('plus');
 plus.addEventListener('click', function(event){
   let number = counter.textContent;
   counter.textContent = addOne(number);
-  window.setTimeout(timer(), 2000);
 });
 const minus = document.getElementById('minus');
 minus.addEventListener('click', function(event){
   let number = counter.textContent;
   counter.textContent = removeOne(number);
-
-  window.setTimeout(timer(), 2000);
 });
