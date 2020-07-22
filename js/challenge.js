@@ -64,7 +64,7 @@ like.addEventListener('click', function(event){
   let li = document.createElement('li');
   li.textContent = `${counter.textContent} has ${likes} likes`;
   if (likes > 1 ) {
-    let x = document.getElementsByClassName('likes');
+    let x = document.getElementsByTagName('li');
     x[x.length-1].textContent = li.textContent;
     console.log(x[x.length-1])
   } else {
