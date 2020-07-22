@@ -57,5 +57,8 @@ pause.addEventListener('click', function(event) {
 
 const like = document.getElementById('heart');
 like.addEventListener('click', function(event){
-  console.log("1");
+  let likes = 0;
+  let p = document.createElement('p');
+  p.textContent = `${counter} has ${likes + 1} likes`;
+  console.log(p);
 });
