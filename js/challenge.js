@@ -63,5 +63,5 @@ like.addEventListener('click', function(event){
   likes = likes + 1
   let p = document.createElement('p');
   p.textContent = `${counter.textContent} has ${likes} likes`;
-  document.getElementsByClassName('likes').appendChild(p);
+  document.getElementsByClassName('likes')[0].appendChild(p);
 });
