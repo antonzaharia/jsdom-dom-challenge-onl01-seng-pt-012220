@@ -7,4 +7,5 @@ document.getElementById("submit").addEventListener('click', function(event){
   let comments = document.getElementById('list');
   comments.appendChild(p);
   event.preventDefault()
+  input.reset();
 });
