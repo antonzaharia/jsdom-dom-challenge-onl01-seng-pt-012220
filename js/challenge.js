@@ -15,6 +15,5 @@ document.getElementById("submit").addEventListener('click', function(event){
 let counter = document.getElementById('counter');
 window.setInterval( function(){
   let number = counter.textContent;
-  console.log(addOne(number));
   counter.textContent = addOne(number);
 }, 1000);
